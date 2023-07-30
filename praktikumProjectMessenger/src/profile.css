@@ -1,0 +1,57 @@
+
+* {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #EFEEE9;
+    position: relative;
+    margin: 0 auto;
+ }
+ 
+.returnToChats {
+    width: 70px;
+    height: 100%; 
+    background-color: #C1DDDF;
+    position: absolute;
+    left: 0;
+ }
+
+ .profile {
+    width: 450px;
+    height: 450px;
+    background-color: #E3E0D3;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    margin: auto;
+    display:inline-block; 
+    justify-content:center;
+    align-items:center;
+}
+
+.login, .password, .first_name, .second_name, .phone, .password, .email {
+    width: 250px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 15px;
+    top: 170px;
+    left: 10px;
+}
+
+.email, .first_name, .phone {
+    background-color: #C1DDDF;
+}
+
+.avatar {
+    width: 107px;
+    height: 107px;
+    margin: 0;
+    position: absolute;
+    left: 171px;
+    top: 10px;
+}
